@@ -1,5 +1,5 @@
 {
-	"name": "sql-logic",
+	"name": "@codespiral/sql-logic",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
