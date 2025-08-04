@@ -1,16 +1,23 @@
 {
 	"name": "@codespiral/sql-logic",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"type": "module",
+	"homepage": "https://github.com/dlashua/sql-logic",
 	"scripts": {
 		"build": "tsup",
-		"dev": "tsx examples/basic-example.ts",
-		"test": "vitest",
 		"lint": "biome check src",
 		"lint:fix": "biome check --apply src",
 		"knip": "knip"
+	},
+	"exports": {
+		".": {
+			"source": "./src/index.ts",
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
+		"./package.json": "./package.json"
 	},
 	"keywords": [],
 	"author": "",

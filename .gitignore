@@ -2,7 +2,6 @@
 .vscode
 scripts
 node_modules
-dist
 data/
 BUILD.md
 
